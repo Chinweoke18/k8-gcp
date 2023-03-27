@@ -17,3 +17,8 @@ variable "location" {
   default     = "us-central1-a"
   description = "location"
 }
+
+variable "image_location" {
+  default     = "US"
+  description = "image location"
+}
